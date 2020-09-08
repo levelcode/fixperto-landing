@@ -1,0 +1,473 @@
+body{
+   overflow-x: hidden;
+}
+.ancho-sh {
+	  width: 100%!important;
+    height: auto!important;
+}
+.insert{
+	display:none
+}
+.one-fifth.column { 
+	    width: 25%;
+}
+.two-fifth .titulo {
+    font-size: 43px!important;
+	line-height: 45px!important;
+}
+.beneficios-sh .centro p {
+    text-align: center;
+}
+.beneficios-sh .align_left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+	  margin: 8px;
+}
+.beneficios-sh .centro p {
+    font-weight: 500!important;
+	    line-height: 20px!important;
+}
+.beneficios-sh .one-third.column {
+    width: 30%;
+}
+.column, .columns {
+	margin-bottom: 0;
+}
+.visual-exp-1 .margin-sh {
+	margin-top:50px!important;
+}
+.visual-exp-2 {
+	padding: 80px 0 30px!important
+}
+.visual-exp-2 .subtitulo {
+	    font-size: 20px;
+	line-height: 24px;
+}
+.visual-exp-2 .botones-exp p {
+	 font-size: 16px;
+	line-height: 18px;
+}
+.icono .image_wrapper {
+	padding: 11px 35px 0!important;
+}
+.nuestros-sh p {
+	font-weight: 500!important;
+  line-height: 20px!important;
+	text-align: center!important;
+}
+.margin-bt-sh {
+	margin-bottom: 40px!important;
+}
+.custom-blog .Latest_news ul li.has-post-thumbnail .desc {
+	width: auto!important;
+}
+.botones{
+   margin-top: 50px!important;
+}
+.one-fifth.column {
+    width: 19%;
+}
+
+.one-fourth.column, .four.columns {
+    width: 25%;
+}
+.junto {
+	  display: flex;
+    justify-content: flex-start;
+}
+.junto input {
+	border-radius: 5px;
+	margin-right: 10px;
+}
+.buscador-sh {
+	position: relative;
+	width: 87%;
+}
+.buscador-sh > input {
+	width: 87%;
+  border-radius: 5px;
+	margin-bottom: 1px;
+	position: relative;
+
+}
+.buscador-sh > input[type="radio"] {
+    display:none!important;
+}
+.buscador-sh::before {
+    content: "";
+    background-image: url(https://www.fixperto.com/wp-content/uploads/2020/07/icono-buscar-sh.png);
+    position: absolute;
+    top: 0%;
+    left: 86%;
+    width: 8%;
+    height: 38.4px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 2;
+    background-color: #43AECC;
+    /* padding: 5px; */
+    border-radius: 0 5px 5px 0;
+}
+
+
+.buscador-sh ul {
+    z-index: 1;
+		width:94%;
+    max-height: 300px;
+    overflow-y: scroll;
+		margin-left: 0;
+	overflow-x:hidden
+}
+.buscador-sh ul li {
+	  margin-bottom: 0;
+    background-color: #fff;
+    height: auto;
+    width: 100%;
+    display: flex;
+	  border: 1px solid #d9d6d6;
+}
+.buscador-sh ul li label {
+	  display: flex;
+    align-items: center;
+    padding: 5px;
+    color: #000;
+    width: 100%;
+    justify-content: flex-start;
+}
+.buscador-sh ul li label input {
+			width: auto;
+	    margin: 0;
+}
+.buscador-sh ul li label .denomination {
+	    color: #000!important;
+}
+
+.buscador-sh button {
+	  width: 40%;
+    border-radius: 5px;
+	  margin-left: 0;
+	font-size: 18px;
+	font-weight: 800;
+}
+.buscador-sh .lado {
+	padding-left: 10px;
+}
+.buscador-sh .lado figure {
+	width: auto;
+	height: 25px!important;
+	margin-left: 15px;
+}
+.buscador-sh .lado figure img {
+	width: auto;
+	height: 25px!important;
+}
+
+.buscador-sh .lado .denomination {
+	font-size: 13px;
+	font-weight: normal;
+	margin-left: 20px;
+}
+
+.height-full-sh {
+	width: 100%!important;
+  height: auto!important;
+}
+.height-full-sh img {
+    height: 100%!important;
+    object-fit: cover!important;
+object-position: center center!important;
+}
+
+.una-linea-sh {
+	width:100%!important;
+}
+.btn-sh {
+	width: 21%;
+}
+.aling-right-sh .alignright {
+	margin: 0!important
+}
+
+
+.category .section_wrapper.clearfix {
+	margin-bottom: 50px!important
+}
+
+.category .image_frame img {
+	    width: 100%;
+    height: 200px!important;
+    object-fit: cover;
+}
+.category #Content {
+    background-size: cover;
+}
+
+#Filters ul li.label {
+	 font-size: 0!important;
+	
+}
+
+#Filters ul li.label::before {
+		content: "Filtrado por";
+		color:#fff!important;
+		font-size: 18px;
+	
+}
+#Filters ul li .open {
+	 font-size: 0;
+		display: flex;
+}
+#Filters ul li.categories .open::before {
+		content: "Categorías";
+		color:#fff!important;
+		font-size: 14px;	
+		order: 2!important;
+}
+
+#Filters .filters_buttons li.categories .open .icon-docs {
+			color: #fff!important;
+			font-size: 14px!important;
+	    order: 1!important;
+}
+#Filters .filters_buttons li.categories .open .icon-down-dir {
+		color: #fff!important;
+		font-size: 14px!important;
+		order: 3!important;
+}
+
+
+
+#Filters ul li.tags .open::before {
+		content: "Etiquetas";
+		color:#fff!important;
+		font-size: 14px;	
+		order: 2!important;
+}
+
+#Filters .filters_buttons li.tags .open .icon-tag {
+			color: #fff!important;
+			font-size: 14px!important;
+	    order: 1!important;
+}
+#Filters .filters_buttons li.tags .open .icon-down-dir {
+		color: #fff!important;
+		font-size: 14px!important;
+		order: 3!important;
+}
+
+
+
+
+#Filters ul li.authors .open::before {
+		content: "Autores";
+		color:#fff!important;
+		font-size: 14px;	
+		order: 2!important;
+}
+
+#Filters .filters_buttons li.authors .open .icon-tag {
+			color: #fff!important;
+			font-size: 14px!important;
+	    order: 1!important;
+}
+#Filters .filters_buttons li.authors .open .icon-down-dir {
+		color: #fff!important;
+		font-size: 14px!important;
+		order: 3!important;
+}
+
+
+#Filters ul li .close {
+	 font-size: 0;
+		display: flex;
+	
+}
+
+#Filters ul li.reset .close::before {
+		content: "Mostar todo";
+		color:#fff!important;
+		font-size: 14px;	
+		order: 2!important;
+}
+
+#Filters .filters_buttons li.reset .close .icon-cancel {
+			color: #fff!important;
+			font-size: 14px!important;
+	    order: 1!important;
+}
+
+.category .post-links a.post-more {
+	font-size: 0;	
+}
+
+.category .post-links a.post-more::before {
+	content: "Leer mas";
+	font-size: 14px;	
+}
+
+#Filters ul li a.open:hover {
+	color: #ffffff;
+}
+#Filters ul li a.close:hover {
+	color: #ffffff;
+}
+.wpcf7-form label.error {
+    color: #fff;
+}
+
+.theme_1.wpcf7-form input.error, .theme_1.wpcf7-form select.error, .theme_1.wpcf7-form textarea.error {
+    border-bottom: 2px solid #fff;
+
+}
+#comments-title {
+	 font-size: 0;
+		display: flex;
+}
+#comments #comments-title::before {
+		content: "1 Comentario";
+		color:#000!important;
+		font-size: 18px;	
+}
+
+.atencion {
+	font-size: 18px;
+}
+
+.custom-blog .Latest_news ul li.has-post-thumbnail .photo img.scale-with-grid {
+    max-width: 42% !important;
+}
+#Intro {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 959px) {
+	.buscador-sh > input {
+		    width: 83%;
+	}
+	.buscador-sh::before {
+		left: 82%;
+    width: 12%;
+	}
+	.btn-sh {
+	width: 48%;
+}
+}
+
+
+@media (max-width: 768px) {
+	
+.atencion {
+	font-size: 14px;
+}
+		.btn-sh {
+	width: 100%;
+}
+.papa-sh	.alinear-sh {
+	width: 100%!important;
+	text-align: center;
+}
+.alinear-sh img {
+	width: 60%;
+}
+.titulo {
+		margin-top:0!important;
+	}
+	 .padd-sh  .section_wrapper {
+		padding-top: 25px!important;
+		padding-bottom: 25px!important
+	}
+	.min-height-sh {
+		 min-height: auto!important;
+	}
+	.visual-exp-1 .margin-sh {
+		font-size: 22px!important;
+	}
+		.papa-sh .margin-sh {
+		font-size: 22px!important;
+		line-height: 23px!important;
+		margin-bottom: 0!important;
+	}
+	.icono img.scale-with-grid {
+		max-width: auto!important;
+	}
+	.papa-icono-sh .mcb-wrap-inner > .icono {
+		height: auto!important;
+	}
+	.icono .image_wrapper {
+		padding: 0!important;
+	}
+	.icono .image_wrapper img .scale-with-grid {
+		max-width: 60% !important;
+	}
+	.form-sh input {
+		    width: 100%;
+    border-radius: 5px;
+	}
+	.form-sh button  {
+		 width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+	}
+	.buscador-sh button {
+		width: 100%;
+	}
+		.buscador-sh input {
+		width: 88%;
+	}
+		.buscador-sh { 
+		width: 94%;
+	}
+	.buscador-sh::before {
+		left: 87%;
+    width: 13%;
+	}
+	.buscador-sh ul {
+		width: 100%;
+	}
+}
+@media (max-width: 610px) {
+		.buscador-sh { 
+		width: 100%;
+	}
+}
+
+@media (max-width: 460px) {
+	.junto {
+		flex-direction: column;
+	}
+	.junto input {
+		width:100%;
+	}
+		.junto .btn-azul {
+		width:100%;
+	}
+	.beneficios-sh .centro p {
+	font-size: 18px!important;
+}
+	.entry-content .section.contact-sh {
+		   padding-top: 70px !important;
+	}
+}
+

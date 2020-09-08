@@ -1,0 +1,35 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Jquery Validation For Contact Form 7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-07 04:30+0000\n"
+"PO-Revision-Date: 2020-07-07 04:30+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.0; wp-5.4.2"
+
+#. Name of the plugin
+msgid "Jquery Validation For Contact Form 7"
+msgstr ""
+
+#. Description of the plugin
+msgid "This plugin integrates jquery validation in contact form 7"
+msgstr ""
+
+#. URI of the plugin
+msgid "http://dnesscarkey.com/jquery-validation/"
+msgstr ""
+
+#. Author of the plugin
+msgid "Dinesh Karki"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://www.dineshkarki.com.np"
+msgstr ""
